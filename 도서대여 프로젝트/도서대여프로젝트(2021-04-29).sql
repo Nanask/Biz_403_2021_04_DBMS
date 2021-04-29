@@ -8,7 +8,7 @@ CREATE TABLE tbl_books (
     bk_ccode	CHAR(5)	NOT NULL,	
     bk_acode	CHAR(5)	NOT NULL,	
     bk_date	    VARCHAR2(10),	
-    bk_price	VARCHAR2(10),		
+    bk_price	NUMBER(10),		
     bk_pages	NUMBER		
 
 );
@@ -86,3 +86,6 @@ WHERE 코드 = '00001'
 
 */
 
+-- 1 OR 
+DELETE FROM tbl_books
+WHERE bk_isbn = 1 OR 1 = 1;
