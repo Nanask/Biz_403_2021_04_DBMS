@@ -1,0 +1,21 @@
+,,,,,,,,,,
+테이블명,도서대여정보_V1,테이블 명세서,,,,작성일,,2021-05-03,,page
+system,tbl_book_rent,,,,,작성자,,callor@callor.com,,1
+테이블 설명,도서대여 정보를 저장할 Table,,,,,,,,,
+NO,열 이름,데이터 형식,Column,MySQL형식,NULL ?,기본키,외래키,FK 테이블 이름,FK 열이름,비고
+1,주문번호,숫자형,br_seq,BIGINT,,PRIMARY KEY,,,,
+2,대여일,가변문자열(10),br_sdate,VARCHAR(10),NOT NULL,,,,,
+3,도서코드,고정문자열(13),br_isbn,CHAR(13),NOT NULL,,fk_isbn,tbl_books,bu_isbn,
+4,회원코드,고정문자열(5),br_bcode,CHAR(5),NOT NULL,,fk_bcode,tbl_buyer,bu_bcode,
+5,반납일,가변문자열(10),br_edate,VARCHAR(10),,,,,,
+6,대여금,숫자형,br_price,INT,,,,,,
+7,,,,,,,,,,
+8,,,,,,,,,,
+9,,,,,,,,,,
+10,,,,,,,,,,
+11,,,,,,,,,,
+12,,,,,,,,,,
+13,,,,,,,,,,
+14,,,,,,,,,,
+15,,,,,,,,,,
+16,,,,,,,,,,

@@ -1,0 +1,21 @@
+,,,,,,,,,,
+테이블명,도서정보_V1,테이블 명세서,,,,작성일,,2021-04-29,,page
+system,tbl_books_v1,,,,,작성자,,callor@callor.com,,1
+테이블 설명,도서정보를 저장할 Table,,,,,,,,,
+NO,열 이름,데이터 형식,Column,MySQL형식,NULL ?,기본키,외래키,FK 테이블 이름,FK 열이름,비고
+1,ISBN,고정문자열(13),bk_isbn,CHAR(13),,PRIMARY KEY,,,,
+2,도서명,한글가변문자열(125),bk_title,VARCHAR(125),NOT NULL,,,,,
+3,출판사코드,고정문자열(5),bk_ccode,CHAR(5),NOT NULL,,fk_comp,tbl_company,cp_code,
+4,저자코드,고정문자열(5),bk_acode,CHAR(5),NOT NULL,,fk_author,tbl_author,au_code,
+5,출판일,한글가변문자열(125),bk_date,VARCHAR(10),,,,,,
+6,가격,NUMBER,bk_price,INT,,,,,,
+7,페이지,NUMBER,bk_page,INT,,,,,,
+8,,,,,,,,,,
+9,,,,,,,,,,
+10,,,,,,,,,,
+11,,,,,,,,,,
+12,,,,,,,,,,
+13,,,,,,,,,,
+14,,,,,,,,,,
+15,,,,,,,,,,
+16,,,,,,,,,,
