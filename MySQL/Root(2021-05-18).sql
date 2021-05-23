@@ -60,6 +60,7 @@ ALTER USER
 identified WITH 
 mysql_native_password 
 BY '12345';
+-- 연결된 것을 업데이트 시켜라!
 flush privileges;
 
 SELECT * FROM USER
