@@ -23,4 +23,4 @@ npm install pug
 
 ### mongoDB Atlas 접속정보
 
-mongodb+srv://noso:<password>@cluster0.gxw4m.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+mongodb+srv://Nanask:<password>@cluster0.pavjb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
